@@ -282,7 +282,7 @@
             const targetPosition = target.getBoundingClientRect().top + window.pageYOffset;
             const startPosition = window.pageYOffset;
             const distance = targetPosition - startPosition;
-            const duration = 1000; // duration in milliseconds (e.g., 1000ms = 1 second)
+            const duration = 1000; 
             let start = null;
 
             function step(timestamp) {
@@ -295,7 +295,6 @@
             }
             }
 
-            // Ease-in-out function for smoother effect
             function easeInOutQuad(t) {
             return t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t;
             }
@@ -312,7 +311,7 @@
         const targetPosition = target.getBoundingClientRect().top + window.pageYOffset;
         const startPosition = window.pageYOffset;
         const distance = targetPosition - startPosition;
-        const duration = 1000; // You can adjust this for slower/faster scroll
+        const duration = 1000; 
         let start = null;
 
         function step(timestamp) {
@@ -366,7 +365,6 @@
     closeToggle.checked ? openMenu() : closeMenu();
   });
 
-  // Optional: Close menu when a nav link is clicked
   document.querySelectorAll('#sideMenu a').forEach(link => {
     link.addEventListener('click', closeMenu);
   });
