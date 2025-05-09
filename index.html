@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amir Patel</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <section id="header">
+        <a href="index.html"><img src="img/logo.jpeg" class="logo" alt=""></a>
+        
+        <div id="sideMenu" class="side-menu">
+            <label class="hamburger inside">
+                <input type="checkbox" id="menuCloseToggle">
+                <svg viewBox="0 0 32 32">
+                <path class="line line-top-bottom" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path>
+                <path class="line" d="M7 16 27 16"></path>
+                </svg>
+            </label>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#aboutMe">About Me</a></li>
+                <li><a href="#EduAndExp">Education and Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <label class="hamburger">
+            <input type="checkbox" id="menuToggle">
+            <svg viewBox="0 0 32 32">
+            <path class="line line-top-bottom" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path>
+            <path class="line" d="M7 16 27 16"></path>
+            </svg>
+        </label>  
+        <div id="navbarDiv">
+            <ul id="navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="#aboutMe">About Me</a></li>
+                <li><a href="#EduAndExp">Education and Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="hero">
+        <h4>Hi! Welcome to my Portfolio Website</h4>
+        <h2>My name is Amir Patel</h2>
+        <h1>An innovative, open-minded and strategic Software Developer</h1>
+        <p>Scroll to learn more about me!</p>
+        <button id="hireMeHero" class="btn-96"><span>Or just hire me right now</span></button>
+    </section>
+    <section id="aboutAndEdu">
+        <div id="aboutAndEduDiv1">
+            <h1 id="aboutMe">About Me</h1>
+            <p><b>
+                Hi, I'm Amir Patel, a passionate software developer based in Cape Town, South Africa. I specialize in building clean, scalable, and efficient solutions—whether that’s a responsive website, a powerful backend system, or a smart automation tool.
+
+                With a background in BSc Computer Science from Stellenbosch University, I’ve worked on projects ranging from strong and creative web applications to low level projects such as compilers. I enjoy solving real-world problems through code and continuously strive to improve my craft.
+                
+                My go-to stack includes JavaScript, React, Node.js, and Java, even though I am proficeint in many other languages, and I’m always excited to explore new technologies and frameworks that fit the problem at hand. Whether I’m writing algorithms or designing intuitive user interfaces, I bring a strong focus on performance, user experience, and maintainability.
+                
+                When I’m not coding, you’ll find me learning about new tech trends, mentoring budding developers, or refining side projects. I believe in writing thoughtful code that lasts, and collaborating with others to build impactful digital experiences.
+                
+            </b>
+            </p>
+            <h1 id="EduAndExp">Education and Experience</h1>
+            <p><b>
+                I have completed a Bachelor's degree in Computer Science from Stellenbosch University, acheiving distinctions in modules such as Computer Science, Object-Oriented Programming, Software Engineering, 
+                Web Development and Physics. My degree teaches a lot of theory, but also provides a lot of practical work and projects-whether that be individual or group projects, some of which are simple but efficeint and others which requires complex code and logic, therefore providing its students such as myself with a very hands-on experience with all sorts of tasks.
+                As for my experience, I am proficient in languages and stacks such as Java, Python, JavaScript, Typescript, React, Node.js, C, C#, CSS, HTML, Tailwind CSS, Next.js, ARM Assembly, x86 Assembly, Flask, Angular, yaml, xml, docker, MATLAB, Mathematica, MySQL and PostgreSQL. I am also 
+                familiar with GIT, Linux and many IDE's such as VSCode, Eclipse, IntelliJ, VIM, NetBeans and STM32CubeIDE. In terms of project management, I have worked in Agile environments, i.e. software development utilizing and following Agile and scrum principles. I have also built some pipelines through GitLab and take unit testing seriously as it shows whether the 
+                code works as intended or not and this is a very important step before merging or pushing to the production branch. I have also dealt with Microsoft Office applications such as Word, Excel, Powerpoint, etc. I also have a fair amount of experience in hardware applications such as network setup, hardware installations and electrical design projects. My focuses 
+                are directed towards accuracy, adaptability, time-management, communication, collaboration and optimal problem solving. During the duration of my studies, I was also a freelance tutor for Computer Science, Mathematics and Physics, directing students towards effective and efficeint problem solving and 
+                helping them in debugging situations, improving computational logic and thinking. 
+
+            </b>
+            </p>
+        </div>
+        <div id="myImgDiv"><img id="myImg" src="img/me.jpg" alt=""></div>
+    </section>
+    <section id="projects">
+        <h1>Projects</h1>
+        <p><b>
+            In my career, I have completed multiple projects that require strong logical and coding skills. Below is a list of a few projects that I have worked on, along with a brief description of each.
+        </b>
+        </p>
+        <div id="continerDivForProjDivs">
+            <div class="projectDiv">
+                <div class="projectNameAndDes">
+                    <h2>Forex Backtester</h2>
+                    <p><b>This project was done as a group project for a company by the name of Spatial Edge, as part of the Software Engineering module, which I achieved a distinction for. It involved building a web based application that could retrieve forex data, then use it to display a chart, along with a feature where the user can code a trading trategy on the site and run it across this data. The program will then display the chart data along with the performance of the strategy used, displaying entries and exits on the chart itself as well as a detailed summary of how the strategy performed. Other features includes version control of strategies, comparing versions showing insersions and deletions, as well as anomoly detection. This project consisted of a server-side and a client-side, utilizing React with Node.js, JavaScript and a bit of Python. CSS and Tailwind CSS was used for styling the front-end.</b></p>
+                </div>
+                <div class="projectButton">
+                    <a href="https://github.com/AmirPatel7/Forex-Backtester" target="_blank">
+                        <button>
+                            <span class="box">
+                                See the code on GitHub
+                            </span>
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="projectDiv">
+                <div class="projectNameAndDes">
+                    <h2>Co-Scribe</h2>
+                    <p><b>This project was done as a group project for Stellenbosch University in the Web Development module, which I achieved a distinction for. It involved building a web based application that allows users to create an account and log in, allowing them to choose a username and even a profile image, provided it was not already in the database, being used by another active user. Once users sign up and log in, they get access to a platform that allows them to create Notes. Notes, in this project, refers to a text file that can be worked on and edited in the text editor available on the platform. It converts whatever text is written into Markdown text, which is shown in a separate block beside the text editor. What makes this application special is that it allows users to share Notes with other users and allows users to collaboratively edit and work on these Notes together, at the same time, simultaneously, hence the name Co-Scribe. The platform also allows users to categorize these Notes into what can be thought as folders, in order to group certain Notes together, for example categorizing all Notes regarding Finance. It also allows users to search for Notes, as well as delete Notes, but keeps them in a trash just incase the user would like to revive it. Once it is deleted from the trash, it gets wiped from the database. This project made use of a server-side and a client-side, utilizing React with Node.js, Typescript, JavaScript and HTML. CSS and Tailwind CSS was used for styling the front-end.</b></p>
+                </div>
+                <div class="projectButton">
+                    <a href="https://github.com/AmirPatel7/Co-Scribe" target="_blank">
+                        <button>
+                            <span class="box">
+                                See the code on GitHub
+                            </span>
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="projectDiv">
+                <div class="projectNameAndDes">
+                    <h2>Moving Maze</h2>
+                    <p><b>This project was done as an individual project for Stellenbosch University in the Object Oriented Programming module, which I achieved a distinction for. It involved building a Java application in the form of a game, which could be played through text on the terminal or through a GUI, depending on the arguments passed through to it when run. More information about the arguments are in the README.md file in the Moving-Maze repository. Instructions on how to play is given in the GUI mode. This project involved deep thinking to solve complex problems throughout the creation of the game, whether that be back-end or front-end. There is even a pathfinder AI that I have built into the game. You can ask this AI by choosing a position, if there is an open path to that specific position and it will either respond by placing you there, or by telling you that there isn't. This project, along with a few others that I have not mentioned, gave a nice full-stack experience, elevating my skills tremendously. The language used was only Java and utilized many .java files to practice OOP and its principles.</b></p>
+                </div>
+                <div class="projectButton">
+                    <a href="https://github.com/AmirPatel7/Moving-Maze" target="_blank">
+                        <button>
+                            <span class="box">
+                                See the code on GitHub
+                            </span>
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="projectDiv">
+                <div class="projectNameAndDes">
+                    <h2>Stack Overflow Scraper</h2>
+                    <p><b>This project was done as an individual project for Stellenbosch University in the Web Development module, which I achieved a distinction for. It involved building a program that was able to scrape Stack Overflow along with Stack Exchange and search for information. The information it was searching for was provided by the university and they were things such as specific questions, specific answers, all questions in a filtered page, all answers on a specific question, etc. Within each of these categories, we had to gather a lot of different information such as the user, the date posted, whether an answer was accepted, whether the question is closed or locked, and many more (there are too many to list all). This was all done in Python using the BeautifulSoup API. The information was then displayed as a web page in the browser in the form of a JSON file, displaying information easily. The program uses various endpoints to determine what sort of information to look for, so the user should first understand which endpoints to use before using the program (this is shown in the code or in the README.md). This all takes place using Flask. So this program is a powerful tool for scraping an finding specific information on a website, using Python and Flask, along with the BeautifulSoup API.</b></p>
+                </div>
+                <div class="projectButton">
+                    <a href="https://github.com/AmirPatel7/Stack_Overflow-Scraper" target="_blank">
+                        <button>
+                            <span class="box">
+                                See the code on GitHub
+                            </span>
+                        </button>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <p id="moreProjects"><b>
+            There are so many more impressive projects that I wish to mention, such as a compiler in C, floating point addition in Aseembly, a chatting, calling and file sharing app in Java, E commerce websites, etc. The above are only but a few projects that should be enough to show the overall experience that I have.
+        </b>
+        </p>
+    </section>
+    <section id="contact">
+        <h1>Contact</h1>
+        <p><b>
+            There are many ways to contact me. Below are my contact details and socials :
+        </b>
+        </p>
+        <div class="social-icons">
+            <a href="https://github.com/AmirPatel7?tab=repositories" class="Btn" aria-label="GitHub" target="_blank">
+              <span class="svgContainer">
+                <!-- GitHub SVG -->
+                <svg fill="white" class="svgIcon" viewBox="0 0 24 24" height="1.5em" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.387.6.113.82-.263.82-.582 0-.288-.01-1.05-.015-2.06-3.338.725-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.757-1.333-1.757-1.09-.745.083-.73.083-.73 1.205.084 1.84 1.237 1.84 1.237 1.07 1.835 2.807 1.305 3.492.997.108-.775.418-1.305.76-1.605-2.665-.3-5.467-1.332-5.467-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23a11.5 11.5 0 013.005-.405c1.02.005 2.045.138 3.005.405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.435.375.81 1.096.81 2.21 0 1.595-.015 2.88-.015 3.27 0 .315.21.705.825.585C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z"/>
+                </svg>
+              </span>
+              <span id="GitHub" class="BG"></span>
+            </a>
+          
+            <a href="https://www.linkedin.com/in/amir-patel-2715ba302/" class="Btn" aria-label="LinkedIn" target="_blank">
+              <span class="svgContainer">
+                <!-- LinkedIn SVG -->
+                <svg fill="white" class="svgIcon" viewBox="0 0 448 512" height="1.5em" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M100.28 448H7.4V148.9h92.88zm-46.44-340.7C24.15 107.3 0 83.2 0 53.5 0 23.8 24.15 0 53.84 0c29.7 0 53.84 23.8 53.84 53.5 0 29.7-24.14 53.8-53.84 53.8zM447.9 448h-92.68V302.4c0-34.7-12.4-58.4-43.4-58.4-23.7 0-37.8 16-44 31.4-2.3 5.6-2.8 13.4-2.8 21.3V448h-92.68s1.2-241.4 0-266.1h92.68v37.7c12.3-19 34.3-46.1 83.5-46.1 60.9 0 106.6 39.8 106.6 125.4V448z"/>
+                </svg>
+              </span>
+              <span id="LinkedIn" class="BG"></span>
+            </a>
+          
+            <a href="https://www.instagram.com/amir.7_7a/" class="Btn" aria-label="Instagram" target="_blank">
+              <span class="svgContainer">
+                <!-- Insta SVG -->
+                <svg fill="white" class="svgIcon" viewBox="0 0 448 512" height="1.5em" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
+                </svg>
+              </span>
+              <span id="Insta" class="BG"></span>
+            </a>
+          
+            <a href="tel:+27618744315" class="Btn" aria-label="WhatsApp" target="_blank">
+              <span class="svgContainer">
+                <!-- WhatsApp SVG -->
+                <svg
+                viewBox="0 0 448 512"
+                fill="white"
+                height="1.6em"
+                xmlns="http://www.w3.org/2000/svg"
+                >
+                <path
+                    d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+                ></path>
+                </svg>
+              </span>
+              <span id="WhatsApp" class="BG"></span>
+            </a>
+
+            <a href="mailto:amirpatel0806@gmail.com?subject=%5BCompany%20Name%5D%20confirming%20an%20interview%20with%20you" class="Btn" aria-label="Mail" target="_blank">
+                <span class="svgContainer">
+                  <!-- Mail SVG -->
+                  <svg
+                    viewBox="0 0 16 16"
+                    fill="white"
+                    height="1.5em"
+                    xmlns="http://www.w3.org/2000/svg"
+                    >
+                    <path
+                        d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2zm3.708 6.208L1 11.105V5.383zM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2z"
+                    ></path>
+                    <path
+                        d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648m-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z"
+                    ></path>
+                    </svg>
+                </span>
+                <span id="Mail" class="BG"></span>
+              </a>
+        </div>
+        <p><b>
+            Or you could flash the Bat-Signal : 
+        </b>
+        </p>
+        
+        <button id="Batman">
+            <span>HIRE ME</span>
+        </button>
+          
+    </section>
+    <section id="footer">
+        <h1>We Have Reached The End of My Portfolio Website</h1>
+        <a href="index.html"><img src="img/logo.jpeg" class="logo" alt=""></a>
+        <p><b>Email : amirpatel0806@gmail.com</b></p>
+        <p id="phone"><b>Phone : +27 61 874 4315</b></p>
+        <p><b>Thank you for viewing my website!</b></p>
+        <button id="backTop">
+            <div class="text">
+            <span>Back</span>
+            <span>to</span>
+            <span>top</span>
+            </div>
+            <div class="clone">
+            <span>Back</span>
+            <span>to</span>
+            <span>top</span>
+            </div>
+            <svg
+            stroke-width="2"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            fill="none"
+            class="h-6 w-6"
+            xmlns="http://www.w3.org/2000/svg"
+            width="20px"
+            >
+            <path
+                d="M14 5l7 7m0 0l-7 7m7-7H3"
+                stroke-linejoin="round"
+                stroke-linecap="round"
+            ></path>
+            </svg>
+        </button>
+    </section>
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (!target) return;
+
+            const targetPosition = target.getBoundingClientRect().top + window.pageYOffset;
+            const startPosition = window.pageYOffset;
+            const distance = targetPosition - startPosition;
+            const duration = 1000; // duration in milliseconds (e.g., 1000ms = 1 second)
+            let start = null;
+
+            function step(timestamp) {
+            if (!start) start = timestamp;
+            const progress = timestamp - start;
+            const percent = Math.min(progress / duration, 1);
+            window.scrollTo(0, startPosition + distance * easeInOutQuad(percent));
+            if (progress < duration) {
+                requestAnimationFrame(step);
+            }
+            }
+
+            // Ease-in-out function for smoother effect
+            function easeInOutQuad(t) {
+            return t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t;
+            }
+
+            requestAnimationFrame(step);
+        });
+        });
+
+
+        document.getElementById("backTop").addEventListener("click", function () {
+        const target = document.getElementById("header");
+        if (!target) return;
+
+        const targetPosition = target.getBoundingClientRect().top + window.pageYOffset;
+        const startPosition = window.pageYOffset;
+        const distance = targetPosition - startPosition;
+        const duration = 1000; // You can adjust this for slower/faster scroll
+        let start = null;
+
+        function step(timestamp) {
+            if (!start) start = timestamp;
+            const progress = timestamp - start;
+            const percent = Math.min(progress / duration, 1);
+            window.scrollTo(0, startPosition + distance * easeInOutQuad(percent));
+            if (progress < duration) {
+            requestAnimationFrame(step);
+            }
+        }
+
+        function easeInOutQuad(t) {
+            return t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t;
+        }
+
+        requestAnimationFrame(step);
+        });
+
+
+        document.getElementById("Batman").addEventListener("click", function () {
+            window.location.href = "mailto:amirpatel0806@gmail.com?subject=%5BCompany%20Name%5D%20confirming%20an%20interview%20with%20you";
+        });
+
+        document.getElementById("hireMeHero").addEventListener("click", function () {
+            window.location.href = "mailto:amirpatel0806@gmail.com?subject=%5BCompany%20Name%5D%20confirming%20an%20interview%20with%20you";
+        });
+
+        
+        const openToggle = document.getElementById('menuToggle');
+  const closeToggle = document.getElementById('menuCloseToggle');
+  const sideMenu = document.getElementById('sideMenu');
+
+  function openMenu() {
+    openToggle.checked = true;
+    closeToggle.checked = true;
+    sideMenu.classList.add('open');
+  }
+
+  function closeMenu() {
+    openToggle.checked = false;
+    closeToggle.checked = false;
+    sideMenu.classList.remove('open');
+  }
+
+  openToggle.addEventListener('change', () => {
+    openToggle.checked ? openMenu() : closeMenu();
+  });
+
+  closeToggle.addEventListener('change', () => {
+    closeToggle.checked ? openMenu() : closeMenu();
+  });
+
+  // Optional: Close menu when a nav link is clicked
+  document.querySelectorAll('#sideMenu a').forEach(link => {
+    link.addEventListener('click', closeMenu);
+  });
+
+
+    </script>
+</body>
+</html>
