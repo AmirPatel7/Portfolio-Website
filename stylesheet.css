@@ -1770,98 +1770,6 @@ button {
   }
 }
 
-@media (max-width: 420px) {
-  h1 {
-    font-size: 20px;
-    line-height: 26px;
-  }
-  h2 {
-    font-size: 16px;
-    line-height: 20px;
-  }
-  h4 {
-    font-size: 8px;
-  }
-  p {
-    font-size: 8px;
-  }
-  
-  #header {
-    padding: 20px 60px;
-    justify-content: space-between;
-  }
-  .logo {
-      width: 150px;
-  }
-  #navbar {
-    display: none;
-  }
-  #navbarDiv {
-    display: none;
-  }
-  #navbar li {
-    padding: 0 15px;
-  }
-  #navbar li a {
-      font-size: 16px;
-  }
-  .hamburger {
-    display: block;
-    z-index: 2500;
-}
-  #hero {
-    padding: 0 20px;
-    padding-right: 20px;
-    height: 80vh;
-    background-position: top 25% right 85%;
-  }
-  .btn-96 {
-    width: 15em;
-    font-size: 80%;
-  }
-
-  #myImg {
-    margin-top: 0;
-    max-width: 60%;
-  }
-  #aboutAndEdu {
-    height: 100vh;
-    flex-direction: column;
-  }
-  #myImgDiv {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  #aboutAndEdu div {
-    width: 100%;
-  }
-  #aboutAndEduDiv1 {
-    margin-bottom: 0;
-    padding-bottom: 0;
-  }
-  #projects {
-    height: 195vh;
-  }
-  .projectDiv {
-    flex-direction: column;
-  }
-  .projectDiv div {
-    width: 100%;
-  }
-  .projectNameAndDes {
-    margin-right: 60px;
-    padding-left: 60px;
-    padding-right: 60px;
-  }
-  #contact {
-    height: 47vh;
-  }
-  .side-menu ul li a {
-    font-size: 15px;
-  }
-}
-
 @media (max-width: 390px) {
   h1 {
     font-size: 20px;
@@ -2117,7 +2025,7 @@ button {
     padding-bottom: 0;
   }
   #projects {
-    height: 260vh;
+    height: 280vh;
   }
   .projectDiv {
     flex-direction: column;
