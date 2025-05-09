@@ -2009,7 +2009,7 @@ button {
     max-width: 60%;
   }
   #aboutAndEdu {
-    height: 122vh;
+    height: 160vh;
     flex-direction: column;
   }
   #myImgDiv {
@@ -2025,7 +2025,7 @@ button {
     padding-bottom: 0;
   }
   #projects {
-    height: 225vh;
+    height: 260vh;
   }
   .projectDiv {
     flex-direction: column;
@@ -2039,7 +2039,7 @@ button {
     padding-right: 60px;
   }
   #contact {
-    height: 50vh;
+    height: 70vh;
   }
   .side-menu ul li a {
     font-size: 15px;
