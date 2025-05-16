@@ -738,13 +738,13 @@ button {
     margin-top: 160px;
   }
   #aboutAndEdu {
-    height: 90vh;
+    height: 110vh;
   }
   #projects {
-    height: 160vh;
+    height: 180vh;
   }
   #contact {
-    height: 40vh;
+    height: 45vh;
   }
 }
 @media (max-width: 1450px) {
@@ -775,13 +775,13 @@ button {
     margin-top: 300px;
   }
   #aboutAndEdu {
-    height: 135vh;
+    height: 155vh;
   }
   #projects {
-    height: 240vh;
+    height: 260vh;
   }
   #contact {
-    height: 60vh;
+    height: 65vh;
   }
 }
 
@@ -822,13 +822,13 @@ button {
     margin-top: 180px;
   }
   #aboutAndEdu {
-    height: 100vh;
+    height: 120vh;
   }
   #projects {
-    height: 180vh;
+    height: 220vh;
   }
   #contact {
-    height: 50vh;
+    height: 60vh;
   }
 }
 
@@ -867,13 +867,13 @@ button {
     margin-top: 300px;
   }
   #aboutAndEdu {
-    height: 135vh;
+    height: 155vh;
   }
   #projects {
-    height: 242vh;
+    height: 272vh;
   }
   #contact {
-    height: 60vh;
+    height: 65vh;
   }
 }
 
@@ -914,13 +914,13 @@ button {
     margin-top: 300px;
   }
   #aboutAndEdu {
-    height: 150vh;
+    height: 170vh;
   }
   #projects {
-    height: 260vh;
+    height: 290vh;
   }
   #contact {
-    height: 60vh;
+    height: 65vh;
   }
 }
 
